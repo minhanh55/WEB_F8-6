@@ -221,3 +221,44 @@ button {
     border-radius: 50%;
     border: 1px solid rgba(230, 203, 208, 0.9);
 }
+
+/* Client */
+.client {
+    margin-top: 100px;
+}
+
+.client__heading {
+    position: relative;
+    max-width: 253px;
+    font-size: 4.2rem;
+    line-height: 1.19;
+}
+
+.client__heading::after {
+    position: absolute;
+    content: "";
+    top: 22px;
+    left: -99px;
+    display: block;
+    width: 86px;
+    height: 2px;
+    background: #5d3bee;
+}
+
+.client__list {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 36px;
+}
+
+.client__item {
+    display: flex;
+    align-items: center;
+    column-gap: 13px;
+}
+
+.client__item-name {
+    color: #080415;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
