@@ -227,19 +227,19 @@ button {
     margin-top: 100px;
 }
 
-.client__heading {
+.client__title {
     position: relative;
     max-width: 253px;
     font-size: 4.2rem;
     line-height: 1.19;
 }
 
-.client__heading::after {
+.client__title::after {
     position: absolute;
+    display: block;
     content: "";
     top: 22px;
     left: -99px;
-    display: block;
     width: 86px;
     height: 2px;
     background: #5d3bee;
@@ -261,4 +261,44 @@ button {
     color: #080415;
     font-size: 1.8rem;
     font-weight: 500;
+}
+
+.client__bottom {
+    margin-top: 133px;
+}
+
+.client__bottom-content {
+    text-align: center;
+}
+
+.client__desc {
+    margin: 20px auto 0;
+    width: 534px;
+}
+
+.client__bottom-item {
+    margin-top: 60px;
+    padding: 33px 43px;
+}
+
+.client__bottom-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+    border: 1px solid rgba(230, 203, 208, 0.95);
+}
+
+.client__bottom-title {
+    margin-top: 22px;
+    color: #080415;
+    font-size: 3.2rem;
+    font-weight: 500;
+    line-height: 1.25;
+}
+
+.client__bottom-desc {
+    margin-top: 15px;
 }
