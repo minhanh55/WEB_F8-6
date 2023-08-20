@@ -302,3 +302,83 @@ button {
 .client__bottom-desc {
     margin-top: 15px;
 }
+
+/* Project */
+.project {
+    margin-top: 140px;
+    padding: 86px 0;
+    background: #5d3bee;
+}
+
+.project__top {
+    align-items: center;
+}
+
+.project__top-heading,
+.project__top-desc {
+    color: #fff;
+}
+
+.project__top-desc {
+    opacity: 0.7;
+}
+
+.project__bottom {
+    margin-top: 70px;
+}
+
+.project__bottom-list {
+    row-gap: 30px;
+}
+
+.project__bottom-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background: #fbfaff;
+    padding: 24px 23px 23px 34px;
+}
+
+.project__bottom-heading {
+    color: #080415;
+    font-size: 3.2rem;
+    font-weight: 500;
+    line-height: 1.25;
+}
+
+.project__bottom-desc {
+    margin-top: 10px;
+    font-size: 1.6rem;
+    line-height: 1.44;
+}
+
+.project__bottom-more {
+    display: block;
+    margin-top: 20px;
+    color: #080415;
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+.project__bottom-img {
+    width: 246px;
+    height: 187px;
+    z-index: 1;
+    object-fit: cover;
+}
+
+.project__bottom-decor {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.project__btn {
+    margin: 80px auto 0;
+}
+
+.project__btn-cta {
+    background: #fff;
+    color: #080415;
+}
